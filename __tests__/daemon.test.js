@@ -2,6 +2,14 @@ import { Daemon } from "../src/daemon";
 
 test('check character_daemon', () => {
     const daemon = new Daemon('Drakula');
-    expect(daemon.attack).toBe(10);
-    expect(daemon.defense).toBe(40);
+    const characteristic = {
+        attack: 25,
+        defence: 25,
+        health: 100,
+        level: 1,
+        name: 'Drakula',
+        type: 'Daemon',
+    };
+
+    expect(daemon).toEqual(characteristic);
 })

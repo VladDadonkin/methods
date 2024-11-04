@@ -2,6 +2,15 @@ import { Magician } from "../src/magician";
 
 test('check character_magician', () => {
     const magician = new Magician('Invoker');
-    expect(magician.attack).toBe(10);
-    expect(magician.defense).toBe(40);
+    const characteristic = {
+        attack: 10,
+        defence: 40,
+        health: 100,
+        level: 1,
+        name: 'Invoker',
+        type: 'Magician',
+    };
+
+    expect(magician).toEqual(characteristic);
+    
 })
