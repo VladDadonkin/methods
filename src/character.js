@@ -23,7 +23,7 @@ export default class Character {
         
         if (this.health === 0) {;
             throw new Error('нельзя повысить левел умершего');
-        }
+        };
             this.level++;
             this.attack *= 1.2;
             this.defence *= 1.2;
