@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1730708779926" clover="3.2.0">
-  <project timestamp="1730708779927" name="All files">
-    <metrics statements="27" coveredstatements="27" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7" elements="41" coveredelements="41" complexity="0" loc="27" ncloc="27" packages="1" files="7" classes="7"/>
-    <file name="bowerman.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\bowerman.js">
+<coverage generated="1730741106655" clover="3.2.0">
+  <project timestamp="1730741106656" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="13" coveredconditionals="12" methods="9" coveredmethods="9" elements="61" coveredelements="60" complexity="0" loc="39" ncloc="39" packages="1" files="7" classes="7"/>
+    <file name="bowerman.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\bowerman.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="character.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\character.js">
-      <metrics statements="9" coveredstatements="9" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="5" count="10" type="cond" truecount="5" falsecount="0"/>
+    <file name="character.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\character.js">
+      <metrics statements="21" coveredstatements="21" conditionals="13" coveredconditionals="12" methods="3" coveredmethods="3"/>
+      <line num="3" count="17" type="stmt"/>
+      <line num="5" count="17" type="cond" truecount="5" falsecount="0"/>
       <line num="6" count="2" type="stmt"/>
-      <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="15" type="cond" truecount="2" falsecount="0"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="14" count="7" type="stmt"/>
-      <line num="15" count="7" type="stmt"/>
-      <line num="16" count="7" type="stmt"/>
-      <line num="17" count="7" type="stmt"/>
+      <line num="14" count="14" type="stmt"/>
+      <line num="15" count="14" type="stmt"/>
+      <line num="16" count="14" type="stmt"/>
+      <line num="17" count="14" type="stmt"/>
+      <line num="18" count="14" type="stmt"/>
+      <line num="19" count="14" type="stmt"/>
+      <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="35" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="36" count="4" type="stmt"/>
+      <line num="38" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="3" type="stmt"/>
     </file>
-    <file name="daemon.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\daemon.js">
+    <file name="daemon.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\daemon.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="magician.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\magician.js">
+    <file name="magician.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\magician.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="swordsman.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\swordsman.js">
+    <file name="swordsman.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\swordsman.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="undead.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\undead.js">
+    <file name="undead.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\undead.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="zombie.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\classes_inheritance\src\zombie.js">
+    <file name="zombie.js" path="C:\Users\Admin\Дадонкин Влад\Нетология\ajs-homework\methods\src\zombie.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>

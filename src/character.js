@@ -22,7 +22,7 @@ export default class Character {
     levelUp() {
         
         if (this.health === 0) {;
-            throw new Error('нельзя повысить левел умершего');
+            throw new Error('Нельзя повысить левел умершего');
         };
             this.level++;
             this.attack *= 1.2;
@@ -33,7 +33,7 @@ export default class Character {
     damage(points) {
 
         if (this.health >= 0){
-            health -= points * (1 - defence / 100);
+            this.health -= points * (1 - this.defence / 100);
         };
         if (this.health < 0) {
             this.health = 0;

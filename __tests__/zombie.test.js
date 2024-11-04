@@ -10,5 +10,5 @@ test('check characters_zombie', () => {
         name: 'ZombieXX',
         type: 'Zombie',
     };
-    expect(undead).toEqual(characteristic);
+    expect(zombie).toEqual(characteristic);
 })
